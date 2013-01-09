@@ -55,7 +55,12 @@
 		$(".tooltip-1").tooltip({
 			track: true
 		});
-		$(".tooltip-2").tooltip();
+		$(".tooltip-2, .page-header .ui-icon").tooltip({
+			position: {
+				my: "left bottom",
+				at: "left top"
+			}
+		});
 	});
 	
 })( jQuery );

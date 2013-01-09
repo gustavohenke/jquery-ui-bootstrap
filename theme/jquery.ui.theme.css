@@ -438,3 +438,7 @@
 /* Autocomplete
 ----------------------------------*/
 .ui-autocomplete { z-index: 3 !important; }
+
+/* Bonus
+----------------------------------*/
+.ui-icon.ui-icon-inline { display: inline-block; }

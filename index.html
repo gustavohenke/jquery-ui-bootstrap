@@ -7,21 +7,13 @@
 		<link rel="stylesheet" type="text/css" href="theme/jquery.ui.theme.css" />
 		
 		<style type="text/css">
-			.widget .page-header {
-				margin-bottom: 15px;
-			}
-			
+			.widget .page-header { margin-bottom: 15px; }
+            .widget .page-header .ui-icon { vertical-align: middle; }
 			#icons { cursor: default; }
-			#icons li {
-				padding: 3px;
-				margin-bottom: 3px;
-			}
+			#icons li { padding: 3px; margin-bottom: 3px; }
 			
 			.state { margin-bottom: 10px; }
-			.state .ui-icon {
-				float: left;
-				margin: 2px 3px 0 0;
-			}
+			.state .ui-icon { float: left; margin: 2px 3px 0 0; }
 		</style>
 	</head>
 	<body>
@@ -99,7 +91,10 @@
 					
 					<!--Framework icons-->
 					<div class="widget">
-						<h4 class="page-header">Framework icons</h4>
+						<h4 class="page-header">
+                            <span class="ui-icon ui-icon-lightbulb ui-icon-inline" title="Hover each icon to find his class name"></span>
+                            Framework icons
+                        </h4>
 						<ul id="icons" class="ui-widget ui-helper-clearfix unstyled inline">
 
 							<li class="ui-state-default ui-corner-all" title=".ui-icon-carat-1-n"><span class="ui-icon ui-icon-carat-1-n"></span></li>
@@ -314,7 +309,10 @@
 
 					<!--Autocomplete-->
 					<div class="widget">
-						<h4 class="page-header">Autocomplete</h4>
+                        <h4 class="page-header">
+                            <span class="ui-icon ui-icon-lightbulb ui-icon-inline" title="Try typing an programming language name!"></span>
+                            Autocomplete
+                        </h4>
 						<input type="text" id="autocomplete" class="span4" />
 					</div>
 					
