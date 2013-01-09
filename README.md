@@ -7,7 +7,9 @@ The incredible styles of Twitter Bootstrap, now for jQuery UI!
 ## Installation
 Install it with ease via (Bower)[http://twitter.github.com/bower/]:
 
-`bower install jquery-ui-bootstrap`
+```
+bower install jquery-ui-bootstrap
+```
 
 ## Why?
 I knew about [Addy Osmani](https://github.com/addyosmani/jquery-ui-bootstrap/)'s try with this before starting my own repository. However, he looks compromised with other things, and his styles are outdated. 
