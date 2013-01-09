@@ -1,11 +1,12 @@
 (function( $ ) {
 	
-	var widgets = [ "accordion", "button", "tabs" ];
-	
 	$( document).ready(function() {
 		$("#accordion").accordion();
 		$("#tabs").tabs();
 		$("#button").button();
+		$("#menu").menu();
+		$("#spinner").spinner();
+		$("#datepicker").datepicker();
 		
 		$("#dialog").dialog({
 			autoOpen: false,
@@ -14,44 +15,47 @@
 			height: 200,
 			title: "Dialog example",
 			buttons : {
-				Close : function() { $("#dialog").dialog("close"); }
+				Close : function() {
+					$("#dialog").dialog("close");
+				}
 			}
 		});
 		$("#open-dialog").button({
-			icons : {  primary : "ui-icon-newwin" }
+			icons : {
+				primary : "ui-icon-newwin"
+			}
 		}).click(function() {
 			$("#dialog").dialog("open");
 		});
 		
-		$("#spinner").spinner();
-		
 		$("#autocomplete").autocomplete({
-			source: [ "Haskell", "Java", "JavaScript", "C++", "C#", "PHP", "CoffeeScript" ]
+			source: [
+				"C", "C++", "C#", "CoffeeScript", "Eiffel", "FORTRAN", "Go", 
+				"Haskell", "Java", "JavaScript", "Kotlin", "Lua", "Matlab", "Perl",
+				"PHP", "Prolog", "Python", "Objective-C", "Ruby", "Scala", 
+				"Smalltalk", "Visual Basic"
+			]
 		});
     
 		$("#slider").slider({
 			range: true,
-			values: [5, 40],
+			values: [ 5, 40 ],
 			min: 0,
 		    max: 50
 		});
-		
-		$("#datepicker").datepicker();
 		
 		$("#progressbar").progressbar({
 			value: 40
 		});
 		
 		$("#icons li").hover(function() {
-			$(this).toggleClass("ui-state-hover");
+			$( this ).toggleClass("ui-state-hover");
 		});
 		
 		$(".tooltip-1").tooltip({
 			track: true
 		});
 		$(".tooltip-2").tooltip();
-		
-		$("#menu").menu();
 	});
 	
 })( jQuery );
