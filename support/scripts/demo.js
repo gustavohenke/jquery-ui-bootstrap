@@ -3,7 +3,7 @@
 	$( document).ready(function() {
 		$("#accordion").accordion();
 		$("#tabs").tabs();
-		$("#button").button();
+		$("#button, #button2").button();
 		$("#menu").menu();
 		$("#spinner").spinner();
 		$("#datepicker").datepicker();
