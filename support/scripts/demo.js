@@ -44,7 +44,7 @@
 		    max: 50
 		});
 		
-		$("#progressbar").progressbar({
+		$("#progressbar, #progressbar2, #progressbar3").progressbar({
 			value: 40
 		});
 		

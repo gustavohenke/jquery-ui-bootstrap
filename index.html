@@ -18,6 +18,10 @@
 			
 			.state { margin-bottom: 10px; }
 			.state .ui-icon { float: left; margin: 2px 3px 0 0; }
+
+			.ui-progressbar {
+				margin-bottom: 3px;
+			}
 		</style>
 	</head>
 	<body>
@@ -382,8 +386,13 @@
 					
 					<!--Progressbar-->
 					<div class="widget">
-						<h4 class="page-header">Progressbar</h4>
+						<h4 class="page-header">
+							<span class="ui-icon ui-icon-lightbulb ui-icon-inline" title="Add 'ui-progressbar-striped' and 'ui-progressbar-animated' classes to achieve the animated progressbar!"></span>
+							Progressbar
+						</h4>
 						<div id="progressbar"></div>
+						<div id="progressbar2" class="ui-progressbar-striped" title=".ui-progressbar-striped"></div>
+						<div id="progressbar3" class="ui-progressbar-striped ui-progressbar-animated" title=".ui-progressbar-striped.ui-progressbar-animated"></div>
 					</div>
 					
 					<!--State classes-->
