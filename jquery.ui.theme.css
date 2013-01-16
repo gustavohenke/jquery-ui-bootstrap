@@ -460,3 +460,56 @@
 /* Bonus
 ----------------------------------*/
 .ui-icon.ui-icon-inline { display: inline-block; }
+
+.ui-progressbar-striped .ui-progressbar-value {
+  background-color: #0079CC;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 4em 4em;
+     -moz-background-size: 4em 4em;
+       -o-background-size: 4em 4em;
+          background-size: 4em 4em;
+}
+
+/* Progressbar animations
+-------------------------- */
+/* Webkit */
+@-webkit-keyframes progressbar-stripes {
+  from  { background-position: 4em 0; }
+  to    { background-position: 0 0; }
+}
+
+/* Firefox */
+@-moz-keyframes progressbar-stripes {
+  from  { background-position: 4em 0; }
+  to    { background-position: 0 0; }
+}
+
+/* IE9 */
+@-ms-keyframes progressbar-stripes {
+  from  { background-position: 4em 0; }
+  to    { background-position: 0 0; }
+}
+
+/* Opera */
+@-o-keyframes progressbar-stripes {
+  from  { background-position: 0 0; }
+  to    { background-position: 4em 0; }
+}
+
+/* Spec */
+@keyframes progressbar-stripes {
+  from  { background-position: 4em 0; }
+  to    { background-position: 0 0; }
+}
+
+.ui-progressbar-striped.ui-progressbar-animated .ui-progressbar-value {
+  -webkit-animation: progressbar-stripes 1.5s linear infinite;
+     -moz-animation: progressbar-stripes 1.5s linear infinite;
+      -ms-animation: progressbar-stripes 1.5s linear infinite;
+       -o-animation: progressbar-stripes 1.5s linear infinite;
+          animation: progressbar-stripes 1.5s linear infinite;
+}
