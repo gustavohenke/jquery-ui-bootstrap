@@ -1,6 +1,6 @@
 (function( $ ) {
 	
-	$( document).ready(function() {
+	$( document ).ready(function() {
 		$("#accordion").accordion();
 		$("#tabs").tabs();
 		$("#button, #button2").button();
