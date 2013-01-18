@@ -17,5 +17,8 @@ So, I asked myself: _why not try it?_ It would be incredible to make it happen f
 
 Finally, I hope you enjoy my work!
 
+## Useful Wiki pages
+* [Known Issues](https://github.com/gustavohenke/jquery-ui-bootstrap/wiki/Known-Issues)
+
 ## License
 MIT
