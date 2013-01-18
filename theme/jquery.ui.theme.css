@@ -486,12 +486,6 @@
   to    { background-position: 0 0; }
 }
 
-/* IE9 */
-@-ms-keyframes progressbar-stripes {
-  from  { background-position: 4em 0; }
-  to    { background-position: 0 0; }
-}
-
 /* Opera */
 @-o-keyframes progressbar-stripes {
   from  { background-position: 0 0; }
