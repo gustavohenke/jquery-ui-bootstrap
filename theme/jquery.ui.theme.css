@@ -317,7 +317,12 @@
 
 /* Dialog
 ----------------------------------*/
-.ui-dialog { padding: 0; }
+.ui-dialog {
+  padding: 0;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
 
 .ui-dialog .ui-dialog-titlebar {
   padding: 9px 15px;
