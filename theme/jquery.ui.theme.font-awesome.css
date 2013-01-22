@@ -19,31 +19,54 @@
 }
 
 /* 1st, 2nd & 3rd line, all together */
+.ui-icon-carat-1-ne:before,
 .ui-icon-carat-1-n:before           { content: "\f106"; }
+
+.ui-icon-carat-1-se:before,
 .ui-icon-carat-1-e:before           { content: "\f105"; }
+
+.ui-icon-carat-1-sw:before,
 .ui-icon-carat-1-s:before           { content: "\f107"; }
+
+.ui-icon-carat-1-nw:before,
 .ui-icon-carat-1-w:before           { content: "\f104"; }
 /* Missing: .ui-icon-carat-2-n-s */
 /* Missing: .ui-icon-carat-2-e-w */
 
+.ui-icon-triangle-1-ne:before,
 .ui-icon-triangle-1-n:before        { content: "\f0d8"; }
+
+.ui-icon-triangle-1-se:before,
 .ui-icon-triangle-1-e:before        { content: "\f0da"; }
+
+.ui-icon-triangle-1-sw:before,
 .ui-icon-triangle-1-s:before        { content: "\f0d7"; }
+
+.ui-icon-triangle-1-nw:before,
 .ui-icon-triangle-1-w:before        { content: "\f0d9"; }
+
+.ui-icon-triangle-2-e-w:before,
 .ui-icon-triangle-2-n-s:before      { content: "\f0dc"; }
-/* Missing: .ui-icon-triangle-2-e-w */
 
 .ui-icon-arrowthick-1-n:before,
+.ui-icon-arrowthick-1-ne:before,
+.ui-icon-arrow-1-ne:before,
 .ui-icon-arrow-1-n:before           { content: "\f062"; }
 
-.ui-icon-arrowthick-1-w:before,
-.ui-icon-arrow-1-w:before           { content: "\f060"; }
-
 .ui-icon-arrowthick-1-e:before,
+.ui-icon-arrowthick-1-se:before,
+.ui-icon-arrow-1-se:before,
 .ui-icon-arrow-1-e:before           { content: "\f061"; }
 
 .ui-icon-arrowthick-1-s:before,
+.ui-icon-arrowthick-1-sw:before,
+.ui-icon-arrow-1-sw:before,
 .ui-icon-arrow-1-s:before           { content: "\f063"; }
+
+.ui-icon-arrowthick-1-w:before,
+.ui-icon-arrowthick-1-nw:before,
+.ui-icon-arrow-1-nw:before,
+.ui-icon-arrow-1-w:before           { content: "\f060"; }
 
 .ui-icon-arrowthick-2-n-s:before    { content: "\f07d"; }
 .ui-icon-arrowthick-2-e-w:before    { content: "\f07e"; }
@@ -167,3 +190,36 @@
 /* Missing: .ui-icon-grip-solid-horizontal */
 /* Missing: .ui-icon-gripsmall-diagonal-se */
 /* Missing: .ui-icon-grip-diagonal-se */
+
+/* Rotated icons
+----------------- */
+.ui-icon-carat-1-ne,
+.ui-icon-carat-1-se,
+.ui-icon-carat-1-sw,
+.ui-icon-carat-1-nw,
+.ui-icon-triangle-1-ne,
+.ui-icon-triangle-1-se,
+.ui-icon-triangle-1-sw,
+.ui-icon-triangle-1-nw,
+.ui-icon-arrowthick-1-ne,
+.ui-icon-arrowthick-1-se,
+.ui-icon-arrowthick-1-sw,
+.ui-icon-arrowthick-1-nw,
+.ui-icon-arrow-1-ne,
+.ui-icon-arrow-1-se,
+.ui-icon-arrow-1-sw,
+.ui-icon-arrow-1-nw {
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.ui-icon-triangle-2-e-w {
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
