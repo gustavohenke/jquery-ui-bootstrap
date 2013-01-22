@@ -1,17 +1,18 @@
 .ui-icon {
+  float: left;
+  display: inline-block;
+  line-height: 16px;
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
   text-decoration: inherit;
-  display: inline-block;
-  line-height: 16px;
+  text-align: center;
+  text-indent: 0;
   background-image: none !important;
   background-position: 0% 0%;
   background-repeat: repeat;
-  float: left;
-  text-align: center;
-  text-indent: 0;
+  cursor: default;
 }
 
 .ui-icon:before {
@@ -269,4 +270,9 @@
       -ms-transform: rotate(270deg);
        -o-transform: rotate(270deg);
           transform: rotate(270deg);
+}
+
+/* Hover state */
+.ui-state-hover .ui-icon {
+  color: #454545;
 }
