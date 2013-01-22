@@ -19,6 +19,7 @@
 }
 
 /* 1st, 2nd & 3rd line, all together */
+/* "Carat" directionals */
 .ui-icon-carat-1-ne:before,
 .ui-icon-carat-1-n:before           { content: "\f106"; }
 
@@ -33,6 +34,7 @@
 /* Missing: .ui-icon-carat-2-n-s */
 /* Missing: .ui-icon-carat-2-e-w */
 
+/* "Triangle" directionals */
 .ui-icon-triangle-1-ne:before,
 .ui-icon-triangle-1-n:before        { content: "\f0d8"; }
 
@@ -48,6 +50,7 @@
 .ui-icon-triangle-2-e-w:before,
 .ui-icon-triangle-2-n-s:before      { content: "\f0dc"; }
 
+/* "Arrow" directionals */
 .ui-icon-arrowthick-1-n:before,
 .ui-icon-arrowthick-1-ne:before,
 .ui-icon-arrow-1-ne:before,
@@ -68,11 +71,29 @@
 .ui-icon-arrow-1-nw:before,
 .ui-icon-arrow-1-w:before           { content: "\f060"; }
 
+.ui-icon-arrow-2-n-s:before,
 .ui-icon-arrowthick-2-n-s:before    { content: "\f07d"; }
+
+.ui-icon-arrow-2-e-w:before,
 .ui-icon-arrowthick-2-e-w:before    { content: "\f07e"; }
+
+.ui-icon-arrow-2-ne-sw:before,
+.ui-icon-arrow-2-se-nw:before,
+.ui-icon-arrowthick-2-se-nw:before,
+.ui-icon-arrowthick-2-ne-sw:before  { content: "\f065"; }
 
 .ui-icon-arrow-4:before             { content: "\f047"; }
 .ui-icon-arrow-4-diag:before        { content: "\f0b2"; }
+
+/* "Arrow return" directionals */
+.ui-icon-arrowreturnthick-1-w:before,
+.ui-icon-arrowreturnthick-1-n:before,
+.ui-icon-arrowreturnthick-1-e:before,
+.ui-icon-arrowreturnthick-1-s:before,
+.ui-icon-arrowreturn-1-w:before,
+.ui-icon-arrowreturn-1-n:before,
+.ui-icon-arrowreturn-1-e:before,
+.ui-icon-arrowreturn-1-s:before     { content: "\f112"; }
 
 /* 4th line */
 .ui-icon-extlink:before             { content: "\f08e"; }
@@ -216,10 +237,32 @@
           transform: rotate(45deg);
 }
 
+.ui-icon-arrowreturnthick-1-n,
+.ui-icon-arrowreturn-1-n,
+.ui-icon-arrow-2-se-nw,
+.ui-icon-arrowthick-2-se-nw,
 .ui-icon-triangle-2-e-w {
   -webkit-transform: rotate(90deg);
      -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
        -o-transform: rotate(90deg);
           transform: rotate(90deg);
+}
+
+.ui-icon-arrowreturnthick-1-e,
+.ui-icon-arrowreturn-1-e {
+  -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.ui-icon-arrowreturnthick-1-s,
+.ui-icon-arrowreturn-1-s {
+  -webkit-transform: rotate(270deg);
+     -moz-transform: rotate(270deg);
+      -ms-transform: rotate(270deg);
+       -o-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
