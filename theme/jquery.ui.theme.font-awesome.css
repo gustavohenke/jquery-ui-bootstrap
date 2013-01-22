@@ -36,15 +36,19 @@
 
 /* "Triangle" directionals */
 .ui-icon-triangle-1-ne:before,
+.ui-icon-circle-triangle-n:before,
 .ui-icon-triangle-1-n:before        { content: "\f0d8"; }
 
 .ui-icon-triangle-1-se:before,
+.ui-icon-circle-triangle-e:before,
 .ui-icon-triangle-1-e:before        { content: "\f0da"; }
 
 .ui-icon-triangle-1-sw:before,
+.ui-icon-circle-triangle-s:before,
 .ui-icon-triangle-1-s:before        { content: "\f0d7"; }
 
 .ui-icon-triangle-1-nw:before,
+.ui-icon-circle-triangle-w:before,
 .ui-icon-triangle-1-w:before        { content: "\f0d9"; }
 
 .ui-icon-triangle-2-e-w:before,
