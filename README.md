@@ -19,6 +19,7 @@ Finally, I hope you enjoy my work!
 
 ## Useful Wiki pages
 * [Known Issues](https://github.com/gustavohenke/jquery-ui-bootstrap/wiki/Known-Issues)
+* [Changelog](https://github.com/gustavohenke/jquery-ui-bootstrap/wiki/Changelog)
 
 ## License
 MIT
