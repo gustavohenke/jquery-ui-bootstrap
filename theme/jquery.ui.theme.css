@@ -345,7 +345,7 @@
           box-shadow: none;
 }
 
-.ui-dialog span.ui-dialog-titlebar-close.ui-state-hover { border: none; background: transparent; }
+.ui-dialog a.ui-dialog-titlebar-close.ui-state-hover { border: none; background: transparent; }
 
 .ui-dialog .ui-dialog-buttonpane {
   border-color: #ddd;
