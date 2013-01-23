@@ -276,3 +276,30 @@
 .ui-state-hover .ui-icon {
   color: #454545;
 }
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  border: 1px solid #bbb;
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  color: #555;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75)
+}
+
+.ui-datepicker .ui-datepicker-prev-hover, 
+.ui-datepicker .ui-datepicker-next-hover {
+  border: 1px solid #999999;
+  background-position: 0 -15px;
+  font-weight: normal;
+  -webkit-transition: 0.1s linear background-position;
+     -moz-transition: 0.1s linear background-position;
+      -ms-transition: 0.1s linear background-position;
+       -o-transition: 0.1s linear background-position;
+          transition: 0.1s linear background-position;
+}
