@@ -62,23 +62,14 @@
 			}
 		});
 
-		toggleFontAwesome();
+		$(".fontawesome-toggle").click( toggleFontAwesome );
 	});
 
 	function toggleFontAwesome() {
-		var $toggle = $(".fontawesome-toggle").show();
-		
-		if ( location.search.indexOf("fontAwesome=no") === -1 ) {
-			return;
-		}
-
-
-		$toggle.text("Run with FontAwesome").attr( "href", "?fontAwesome=yes#icons" );
-
 		var i = 0;
 		for ( ; i < document.styleSheets.length; i++ ) {
 			if ( /\.font-awesome\.css$/i.test( document.styleSheets[ i ].href ) ) {
-				document.styleSheets[ i ].disabled = true;
+				document.styleSheets[ i ].disabled = !document.styleSheets[ i ].disabled;
 				break;
 			}
 		}
