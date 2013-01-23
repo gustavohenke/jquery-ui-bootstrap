@@ -10,7 +10,7 @@
  *
  * -------------------------------------
  *
- * jQuery UI Bootstrap 0.1.1
+ * jQuery UI Bootstrap 0.2.1
  * Created by @gustavohenke.
  * Licensed under MIT.
  */
@@ -345,7 +345,7 @@
           box-shadow: none;
 }
 
-.ui-dialog .ui-dialog-titlebar-close.ui-state-hover { border: none; background: transparent; }
+.ui-dialog span.ui-dialog-titlebar-close.ui-state-hover { border: none; background: transparent; }
 
 .ui-dialog .ui-dialog-buttonpane {
   border-color: #ddd;
