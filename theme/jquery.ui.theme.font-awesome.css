@@ -1,7 +1,6 @@
 .ui-icon {
-  float: left;
   display: inline-block;
-  line-height: 16px;
+  line-height: 1em;
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -13,6 +12,10 @@
   background-position: 0% 0%;
   background-repeat: repeat;
   cursor: default;
+}
+
+li .ui-icon {
+  float: left;
 }
 
 .ui-icon:before {
