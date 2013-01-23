@@ -1,3 +1,13 @@
+/*!
+ * jQuery UI Bootstrap 0.1.1
+ * Created by @gustavohenke.
+ * Licensed under MIT.
+ *
+ * --------------------------
+ *
+ * To be able to make use of this FontAwesome compatibility layer, you must include the
+ * FontAwesome @font-face somewhere in your CSS. Don't forget it, it's important!
+ */
 .ui-icon {
   display: inline-block;
   line-height: 1em;
