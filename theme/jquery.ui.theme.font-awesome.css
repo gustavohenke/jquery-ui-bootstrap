@@ -28,6 +28,10 @@ li .ui-icon {
   float: left;
 }
 
+a .ui-icon {
+  cursor: pointer;
+}
+
 .ui-icon:before {
   display: inline-block;
 }
