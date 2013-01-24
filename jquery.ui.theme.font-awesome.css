@@ -1,5 +1,5 @@
 /*!
- * jQuery UI Bootstrap 0.1.1
+ * jQuery UI Bootstrap 0.2.2
  * Created by @gustavohenke.
  * Licensed under MIT.
  *
@@ -26,6 +26,10 @@
 
 li .ui-icon {
   float: left;
+}
+
+a .ui-icon {
+  cursor: pointer;
 }
 
 .ui-icon:before {
