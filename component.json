@@ -1,6 +1,6 @@
 {
     "name"          : "jquery-ui-bootstrap",
-    "version"       : "0.2.1",
+    "version"       : "0.2.3",
     "main"          : "./jquery.ui.theme.css",
     "dependencies"  : {
         "jquery-ui" : ">=1.9.0"
