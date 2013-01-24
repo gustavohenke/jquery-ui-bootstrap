@@ -347,6 +347,11 @@
 
 .ui-dialog a.ui-dialog-titlebar-close.ui-state-hover { border: none; background: transparent; }
 
+.ui-dialog a.ui-dialog-titlebar-close:hover,
+.ui-dialog a.ui-dialog-titlebar-close:focus {
+  padding: 1px;
+}
+
 .ui-dialog .ui-dialog-buttonpane {
   border-color: #ddd;
   background: #f5f5f5;
