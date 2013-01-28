@@ -453,7 +453,7 @@
 .ui-slider .ui-slider-range,
 .ui-menu .ui-menu-item a.ui-state-focus,
 .ui-menu .ui-menu-item a.ui-state-active,
-.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
 .ui-datepicker td .ui-state-hover,
 .ui-datepicker .ui-datepicker-today a {
   background-color: #006dcc;
