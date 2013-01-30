@@ -10,6 +10,11 @@ Install it with ease via [Bower](http://twitter.github.com/bower/):
 ```
 bower install jquery-ui-bootstrap
 ```
+or, you may also simply [download it](https://github.com/gustavohenke/jquery-ui-bootstrap/archive/master.zip)!
+
+Then, you only have to include the CSS files:
+* `jquery.ui.theme.css`
+* `jquery.ui.theme.font-awesome.css` _(optional, if you use FontAwesome only)_
 
 ## Why?
 I knew about [Addy Osmani](https://github.com/addyosmani/jquery-ui-bootstrap/)'s try with this before starting my own repository. However, he looks compromised with other things, and his styles are outdated. 
