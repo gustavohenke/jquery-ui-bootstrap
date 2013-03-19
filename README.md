@@ -20,6 +20,9 @@ So, I asked myself: _why not try it?_ It would be incredible to make it happen f
 
 Finally, I hope you enjoy my work!
 
+## Problems?
+[Ask me](https://github.com/gustavohenke/jquery-ui-bootstrap/issues/new). It's free and painless, and I won't bite you if something look wrong!
+
 ## Useful Wiki pages
 * [Known Issues](https://github.com/gustavohenke/jquery-ui-bootstrap/wiki/Known-Issues)
 * [Changelog](https://github.com/gustavohenke/jquery-ui-bootstrap/wiki/Changelog)
