@@ -1,3 +1,7 @@
+__This project is outdated and no longer maintained. See [this project](/jquery-ui-bootstrap/jquery-ui-bootstrap), which is up-to-date with current Bootstrap styles and is actively maintained.__
+
+---
+
 # jQuery UI Bootstrap theme
 The incredible styles of Twitter Bootstrap, now for jQuery UI!
 
