@@ -1,4 +1,4 @@
-__This project is outdated and no longer maintained. See [this project](/jquery-ui-bootstrap/jquery-ui-bootstrap), which is up-to-date with current Bootstrap styles and is actively maintained.__
+__This project is outdated and no longer maintained. See [this project](http://jquery-ui-bootstrap.github.io/jquery-ui-bootstrap/), which is up-to-date with current Bootstrap styles and is actively maintained.__
 
 ---
 
